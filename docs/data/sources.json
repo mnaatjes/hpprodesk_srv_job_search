@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Levels.fyi",
+    "description": "Community-driven salary data, primarily for mid-to-large tech companies.",
+    "is_free": true,
+    "url": "https://www.levels.fyi/"
+  },
+  {
+    "id": 2,
+    "name": "Stack Overflow Developer Survey",
+    "description": "An annual, comprehensive survey of software developers covering technology trends, demographics, and salaries.",
+    "is_free": true,
+    "url": "https://survey.stackoverflow.co/"
+  },
+  {
+    "id": 3,
+    "name": "Glassdoor",
+    "description": "Crowdsourced salary data, company reviews, and job postings across many industries and locations.",
+    "is_free": true,
+    "url": "https://www.glassdoor.com/"
+  },
+  {
+    "id": 4,
+    "name": "PayScale",
+    "description": "Crowdsourced compensation data to help understand market rates for various roles.",
+    "is_free": true,
+    "url": "https://www.payscale.com/"
+  },
+  {
+    "id": 5,
+    "name": "Reddit - r/cscareerquestions",
+    "description": "A large online community for discussing careers in computer science, including job searches, interviews, and market sentiment.",
+    "is_free": true,
+    "url": "https://www.reddit.com/r/cscareerquestions/"
+  },
+  {
+    "id": 6,
+    "name": "Hacker News",
+    "description": "A technology-focused news aggregator and forum with high-quality discussions and monthly hiring threads.",
+    "is_free": true,
+    "url": "https://news.ycombinator.com/"
+  },
+  {
+    "id": 7,
+    "name": "Blind",
+    "description": "An anonymous professional network for candid discussions about compensation, interviews, and culture at tech companies.",
+    "is_free": true,
+    "url": "https://www.teamblind.com/"
+  }
+]

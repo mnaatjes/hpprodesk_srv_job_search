@@ -1,0 +1,9 @@
+# Docker Ignore File
+# @date 12/02/2025
+# MNaatjes
+
+# Ignore Docs Directory
+docs/
+
+# Ignore git file
+.git

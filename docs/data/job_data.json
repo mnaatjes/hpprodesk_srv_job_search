@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "title": "PHP / Backend Developer",
+    "type": {
+      "remote": true,
+      "full_time": true,
+      "part_time": true,
+      "commission_gig": false
+    },
+    "estimated_hourly_pay_usd": {
+      "low": 40,
+      "average": 65,
+      "high": 90
+    },
+    "platforms": {
+      "full_time_remote": [
+        "LaraJobs",
+        "Stack Overflow Jobs",
+        "We Work Remotely",
+        "LinkedIn"
+      ],
+      "part_time_contract": [
+        "Toptal",
+        "Upwork"
+      ]
+    },
+    "market_data": {
+      "source": "U.S. Bureau of Labor Statistics (BLS) - Occupational Outlook Handbook",
+      "source_url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "retrieval_date": "2025-10-15",
+      "summary": "The BLS groups PHP/Backend Developers under the broader category of 'Software Developers, Quality Assurance Analysts, and Testers'. The outlook for this group is exceptionally strong.",
+      "job_outlook_percent_growth_2024_2034": 15,
+      "projected_annual_openings": "129,200",
+      "median_pay_annual_2024": 133080,
+      "notes": "The job market for skilled software developers is projected to grow much faster than the average for all occupations. This high demand is driven by the continuous need for new applications on mobile devices and the ever-increasing role of software in all aspects of business and life."
+    }
+  },
+  {
+    "id": 2,
+    "title": "DevOps Engineer",
+    "type": {
+      "remote": true,
+      "full_time": true,
+      "part_time": true,
+      "commission_gig": false
+    },
+    "estimated_hourly_pay_usd": {
+      "low": 50,
+      "average": 75,
+      "high": 120
+    },
+    "platforms": {
+      "full_time_remote": [
+        "LinkedIn",
+        "We Work Remotely",
+        "Stack Overflow Jobs"
+      ],
+      "part_time_contract": [
+        "Toptal",
+        "Upwork",
+        "Gun.io"
+      ]
+    },
+    "market_data": {
+      "source": "U.S. Bureau of Labor Statistics (BLS) - Occupational Outlook Handbook",
+      "source_url": "https://www.bls.gov/ooh/computer-and-information-technology/home.htm",
+      "retrieval_date": "2025-10-15",
+      "summary": "The BLS does not have a separate category for 'DevOps Engineer'. This role is a hybrid of 'Software Developer' and 'Computer and Information Technology Occupations'. The data reflects the strong growth and high demand in these overlapping fields.",
+      "job_outlook_percent_growth_2024_2034": 15,
+      "projected_annual_openings": "317,700 (for all Computer & IT occupations)",
+      "median_pay_annual_2024": 105990,
+      "notes": "DevOps is a high-demand specialty focused on automating and streamlining the software development lifecycle. The strong growth in all IT fields and the high median pay indicate that professionals with a hybrid of development and operations skills are extremely valuable."
+    }
+  },
+  {
+    "id": 3,
+    "title": "Full-Stack Developer (Backend-Focused)",
+    "type": {
+      "remote": true,
+      "full_time": true,
+      "part_time": true,
+      "commission_gig": false
+    },
+    "estimated_hourly_pay_usd": {
+      "low": 45,
+      "average": 70,
+      "high": 100
+    },
+    "platforms": {
+      "full_time_remote": [
+        "AngelList / Wellfound",
+        "LinkedIn",
+        "We Work Remotely"
+      ],
+      "part_time_contract": [
+        "Upwork",
+        "Toptal"
+      ]
+    },
+    "market_data": {
+      "source": "U.S. Bureau of Labor Statistics (BLS) - Occupational Outlook Handbook",
+      "source_url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "retrieval_date": "2025-10-15",
+      "summary": "This role falls under the 'Software Developers' category. The data is identical to that of a backend developer, but roles may require additional frontend skills, which can sometimes command higher pay.",
+      "job_outlook_percent_growth_2024_2034": 15,
+      "projected_annual_openings": "129,200",
+      "median_pay_annual_2024": 133080,
+      "notes": "Full-stack developers are versatile and highly sought after, especially in startups and smaller companies. A strong backend focus combined with frontend capabilities makes for a very strong candidate profile."
+    }
+  },
+  {
+    "id": 4,
+    "title": "PHP Project Developer (Gig Work)",
+    "type": {
+      "remote": true,
+      "full_time": false,
+      "part_time": true,
+      "commission_gig": true
+    },
+    "estimated_hourly_pay_usd": {
+      "low": 30,
+      "average": 55,
+      "high": 85
+    },
+    "platforms": {
+      "full_time_remote": [],
+      "part_time_contract": [
+        "Upwork",
+        "Fiverr Pro",
+        "PeoplePerHour",
+        "Toptal"
+      ]
+    },
+    "market_data": {
+      "source": "Freelance Platform Data & Industry Averages",
+      "source_url": null,
+      "retrieval_date": "2025-10-15",
+      "summary": "This represents project-based freelance work. Pay is highly variable based on the project scope, client budget, and developer experience.",
+      "job_outlook_percent_growth_2024_2034": null,
+      "projected_annual_openings": null,
+      "median_pay_annual_2024": null,
+      "notes": "The market for short-term PHP projects is vast but competitive. Building a strong profile on platforms like Upwork with a solid portfolio is key to securing consistent, high-quality work."
+    }
+  },
+  {
+    "id": 5,
+    "title": "Docker / DevOps Consultant (Gig Work)",
+    "type": {
+      "remote": true,
+      "full_time": false,
+      "part_time": true,
+      "commission_gig": true
+    },
+    "estimated_hourly_pay_usd": {
+      "low": 55,
+      "average": 80,
+      "high": 150
+    },
+    "platforms": {
+      "full_time_remote": [],
+      "part_time_contract": [
+        "Upwork",
+        "Fiverr Pro",
+        "Toptal",
+        "Gun.io"
+      ]
+    },
+    "market_data": {
+      "source": "Freelance Platform Data & Industry Averages",
+      "source_url": null,
+      "retrieval_date": "2025-10-15",
+      "summary": "This is a high-value freelance skill. Many companies need expert help for short-term projects like containerizing an application or setting up a CI/CD pipeline.",
+      "job_outlook_percent_growth_2024_2034": null,
+      "projected_annual_openings": null,
+      "median_pay_annual_2024": null,
+      "notes": "This is an excellent area to focus on for high-paying contract work. The ability to quickly provide a clear, valuable deliverable (like a working Docker environment) is highly sought after."
+    }
+  }
+]

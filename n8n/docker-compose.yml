@@ -1,0 +1,38 @@
+# n8n Docker Compose
+# This file sets up the n8n workflow automation tool.
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n_app
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      # Sets the timezone for n8n to match the host system.
+      - GENERIC_TIMEZONE=Etc/UTC
+      # Fix for secure cookie issue when not using HTTPS locally.
+      - N8N_SECURE_COOKIE=false
+      # Generated encryption key to avoid auto-generation and ensure persistence.
+      - N8N_ENCRYPTION_KEY=95e5ae3c43603d0704d286ca8ef1fbb69cbd9d3d52599bc2006acb7b9a4bdce7
+      # Enable task runners as recommended for future versions.
+      - N8N_RUNNERS_ENABLED=true
+      # Allow access to environment variables from Code Nodes/expressions.
+      - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
+      # Disable support for bare repositories in Git Node due to security concerns.
+      - N8N_GIT_NODE_DISABLE_BARE_REPOS=true
+    volumes:
+      - n8n-data:/home/node/.n8n
+    networks:
+      - jobsearch-net
+
+# Define the volume for persistent data storage
+volumes:
+  n8n-data:
+    name: n8n_app_data
+
+# Define the external network for inter-service communication
+networks:
+  jobsearch-net:
+    name: jobsearch-tools
+    external: true
